@@ -104,8 +104,8 @@ if(isset($_POST['name'])) {
 						<div class="slogan_bott select_no"> Titan Gel - Kem №1 làm tăng kích thước Dương Vật tại nhà, kéo dài thời gian quan hệ</div>
 					</div>
 					<div class="row_logo">
-						<a href="http://titangel.com/" class="logo_top">
-							<img src="./index_files/logo_top.png" alt="Крем для мужчин Титан Гель">
+						<a href="http://titangelrussia.com/" class="logo_top">
+							<img src="./index_files/logo_top.png" alt="Tăng kích thước Dương Vật tại nhà, kéo dài thời gian quan hệ">
 						</a>
 					</div>
 					<div class="timer_wrap timer_hidd">
