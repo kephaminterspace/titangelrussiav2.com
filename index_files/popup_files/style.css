@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic);
+body {
+    margin: 0 auto;
+}
+.cb-form .modal-block {
+    font-family: 'Roboto', sans-serif
+}
+.cb-form .modal-block .padding {
+    padding: 20px 40px 40px
+}
+
+.cb-form .modal-block p {
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.5
+}
+.cb-form .modal-block .bold {
+    font-weight: bold
+}
+.cb-form form {
+    margin: 10px 0;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background: 0;
+    position: static;
+    padding: 0;
+    border: 0
+}
+
+.cb-form form input[type=text], select {
+    height: 36px;
+    line-height: 36px;
+    color: #222;
+    border: 1px solid #aaa;
+    padding: 0 10px;
+    width: 200px;
+    display: inline-block;
+    text-indent: 0;
+    border-radius: 3px;
+    background: #fff;
+    font-size: 14px;
+    font-style: normal;
+    box-shadow: none;
+    position: static;
+    margin: 0 0 10px 0
+}
+.cb-form form ::-webkit-input-placeholder {
+    color: #888
+}
+
+.cb-form form ::-moz-placeholder {
+    color: #888
+}
+
+.cb-form form :-moz-placeholder {
+    color: #888
+}
+
+.cb-form form :-ms-input-placeholder {
+    color: #888
+}
+
+.cb-form form input {
+    float: none
+}
+
+.cb-form form input[name=name] {
+    padding-right: 10px
+}
+
+.cb-form form input[type=submit] {
+    position: static;
+    cursor: pointer;
+    border: 0;
+    background: #c4191c;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 10px;
+    color: #FFF;
+    text-transform: uppercase;
+    line-height: 38px;
+    height: 38px;
+    vertical-align: top;
+    margin: 0;
+    display: inline-block;
+    text-indent: 0;
+    text-align: center !important;
+    border-radius: 3px;
+    font-style: normal;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    opacity: 1
+}
+
+.cb-form form input[type=submit]:hover {
+    background: #dd070b;
+    text-decoration: none
+}
+
+.cb-form form input[type=text], select {
+    border: 2px solid #bdbdbd;
+    height: 56px;
+    line-height: 56px;
+    width: 100%;
+    padding: 0 15px;
+    font-size: 20px
+}
+
+.cb-form form input[type=submit] {
+    width: 100%;
+    background: #f13650;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-top: 10px
+}
+
+.cb-form .cb-form-clock {
+    line-height: 33px !important;
+    padding-left: 46px;
+    background: left center no-repeat url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAMAAAAynjhNAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAB1FBMVEUAAAAccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgccNgAAABYvV2EAAAAmnRSTlMASOTypROmDB19exxQqqhTRc/ClHRebO7LSXzFEJNbDx96YUIWQLWJugUCs/pad9tkPPDZ+P2rBLLVJmrfKNQ1h+EOVtf+OQgqwXNYvulrnOsnhX5vA12KHnLs0bdiKbS5TGfImkpcTYblvGai9ffobsNHixsiJCUguFKXVfMJ9jOvC/T8B7144OYyf4HJRjA4Bg3KLWDYxIg7O/klpgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAHGSURBVCjPdZJnWxNBFIUvgQQ7xSyKYkBKNBEDGNSgAlJCMTYUBdRgRBEVCdYYG1iwNxTr+2ud7C67IWzOh9kz552997nPjEiWClyFha4CyacilIryYrcHPO58tHjNWli3vtgRbtiIqU0lq2BpmcrLN3u1Cs8W2Fopsm17lUV3qMhXLVKzs7auvsEPu2Q3roABg3to3Ku7kKrR1Bxs2Ue4df+BgwaO0HbIcIf15kfapQM6zcpH6eqWbAw90kuzEbUTrZEcTF8/DOjRIMdkFUZiHM8kA5yw5ztp4VNymiGVnOGsjYctzLnzjIiMhvVDpobGLixjX5CL9VJHq01Dl+Ljl9uUOsIkVPUrMsFVi2rqp2uT1zVNi0/duBm8xbR48Vv4dqbozEwymWycHS0JRLgj09y18D1F7z94mEqlHqXV9jFe8dFk937ytCLrFrt4Jp3PqRJHzTH/QgIvqXTGkyReicSJOGM/MbX2vybtRNMsvDGewFsnPMg7/Rt4b5oVGuOD6cZhIpfWwsdlH4NPK+ln1MyWpuBLg739Wp55Tln6poKy4UX397kfi6ElWPqZ0+xXr34f0cz62+cwSctIYpao68/ff3b2H7s/pj40Vyv4AAAAAElFTkSuQmCC')
+}
+
+.cb-form .cb-form-rectangle {
+    position: absolute;
+    width: 48px;
+    height: 24px;
+    bottom: -12px;
+    left: 50%;
+    margin-left: -24px;
+    background: center bottom no-repeat url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAD1BMVEUAAAAccNgccNgccNgAAADkVgQwAAAAA3RSTlMAf4C/aSLHAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAKVJREFUOMt10dENwyAMRVGHCSp5gUqdwLD/biWEgG3e8ydXRwIssuf6CB41fH61hom2ZgRgoncwAhDRJxgBJ9E3GAGZ6A5GQCTqgxHgicZgBGyiORgBL9EzGAEPURSMgJsoDiY/HKoUHL6CSe23KgRAUsfLCwGA1Pm7hYCD1LXBQkAiGyTiQCAeBBKAIxE4ksAiGSxygElOMAkAgyAwCASdYNCJB38O5XLBE8oM+gAAAABJRU5ErkJggg==')
+}
+
+.cb-form .modal-block {
+    width: 100%;
+    min-width: 320px;
+    border-radius: 5px;
+}
+
+.cb-form .modal-block .title {
+    padding: 0;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    background: #1c70d8;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px
+}
+
+.cb-form .modal-block .padding {
+    padding: 30px
+}
+
+.cb-form .modal-block p {
+    color: rgba(0, 0, 0, .75);
+    line-height: 1.5;
+    font-size: 16px
+}
+
+.cb-form form {
+    margin: 30px 0
+}
+
+.cb-form form * {
+    box-sizing: border-box
+}
+
+
+.errorMessage{
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 100000;
+    font-size: 16px;
+    background: #DC3434;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 12px;
+    padding: 12px 12px;
+}
+
+
+@media (max-width: 480px) {
+    .cb-form .modal-block .title {
+        font-size: 14px;
+    }
+}
