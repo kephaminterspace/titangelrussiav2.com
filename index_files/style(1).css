@@ -1,5 +1,5 @@
 .order_form {background: #f3f3f3;border: #ddd 1px solid;padding: 36px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;margin: 0px;font-family: Arial,Helvetica;}
-.block_form {margin:0 0 34px;}
+.block_form {margin:0 0 15px;}
 .block_form_label{width:65px;font-size:14px;color:#333;text-align:right;display: block;float: left;margin: 8px 10px 0 0;}
 .block_form input{display:block;padding:8px 10px;border:#888 1px solid;font-size:15px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; background: #fff;}
 .block_form select 	{padding:2px 0;margin-top: 6px;font-size: 16px;}

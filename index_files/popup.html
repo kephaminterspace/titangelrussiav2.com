@@ -17,22 +17,21 @@
             <div class="title"><a class="icon-close"></a>Bạn có thích đề nghị này?<div class="cb-form-rectangle"></div></div>
             <div class="content">
                 <div class="padding">
-                    <p>Chúng tôi sẽ tư vấn và chăm sóc cho bạn tới khi bạn đạt được thành tích mong muốn, Nếu bạn đặt mua sỉ chúng tôi có chương trình khuyến mãi phù hợp!</p>
-                    <form method="POST" action="http://penbuild-gel.com/order" id="ad1cbf-form">
-                    	                    	<select name="country" id="country" class="country_select">
-                    	                        	        <option value="270">Украина</option>
-                    	                        	        <option value="271" selected="selected">Россия</option>
-                    	                        	        <option value="272">Казахстан</option>
-                    	                        	        <option value="291">Грузия</option>
-                    	                        	        <option value="336">Азербайджан</option>
-                    	                        	        <option value="346">Молдова</option>
-                    	                        	        <option value="354">Киргизстан</option>
-                    	                        	        <option value="356">Армения</option>
-                    	                        	        <option value="357">Беларусь</option>
-                    	                        	</select>
+                    <p>Chúng tôi sẽ tư vấn và chăm sóc cho bạn tới khi bạn đạt được thành tích mong muốn</p>
+                    <form action="index.php#item0" method="post" id="ad1cbf-form">
+
 						<input type="text" name="name" value="" placeholder='Họ và tên *' required oninvalid="setCustomValidity('Họ và tên không để trống')" oninput="setCustomValidity('')"/>
-                    	<input type="text" name="name" value="" placeholder="Ваше имя" id="orderformcdn_name" required="">
-                        <input type="text" name="phone" value="" placeholder="Ваш номер телефона" id="orderformcdn_phone" required="">
+						<input type="text" id="phone" name="phone" value="" placeholder="Số điện thoại *" required="" pattern="^[0-9]{10,12}$" oninvalid="setCustomValidity('Số điện thoại không đúng')" oninput="setCustomValidity('')"/>
+						<input type="text" id="address" name="address" value="" placeholder="Địa chỉ *" style="width: 100%;padding: 10px;border: #888 1px solid; border-radius: 5px;" required="" oninvalid="setCustomValidity('Địa chỉ không để trống')" oninput="setCustomValidity('')"/>
+						<select name="quantity" id="quantity" class="country_select">
+							<option value="1">1 Tuýp</option>
+							<option value="2">2 Tuýp</option>
+							<option value="3">3 Tuýp</option>
+							<option value="4">4 Tuýp</option>
+							<option value="5">5 Tuýp</option>
+							<option value="6">Mua sỉ</option>
+						</select>
+						<input type="hidden" value="" name="ghi_chu"/>
                         <input type="submit" value="Đặt hàng ngay">
                     </form>
                     <p class="cb-form-clock">Chúng tôi sẽ gọi cho bạn trong vòng 15-30 phút</p>
@@ -40,42 +39,5 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-	
-	
-
-	
-		
-			
-				
-					
-				
-			
-
-			
-
-			
-				
-			
-		
-	
-	
-		
-	    
-	    
-	    
-			
-				
-			
-		
-	
-
-
-
-<!-- 1 -->
+	<!-- 1 -->
 </body></html>

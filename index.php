@@ -1,3 +1,61 @@
+<?php
+$message = '';
+$t=time();
+if(isset($_POST['name'])) {
+	$arr = array(
+		'properties' => array(
+			array(
+				'property' => 'firstname',
+				'value' => $_POST['name']
+			),
+			array(
+				'property' => 'phone',
+				'value' => $_POST['phone']
+			),
+			array(
+				'property' => 'address',
+				'value' => $_POST['address']
+			),
+			array(
+				'property' => 'quantity',
+				'value' => $_POST['quantity']
+			),
+			array(
+				'property' => 'ghi_chu',
+				'value' => $_POST['ghi_chu']
+			),
+			array(
+				'property' => 'hs_lead_status',
+				'value' => "NEW"
+			),
+			array(
+				'property' => 'ten_san_pham',
+				'value' => "Titan gel Nga"
+			)
+		)
+	);
+
+	$post_json = json_encode($arr);
+	$endpoint = "https://api.hubapi.com/contacts/v1/contact/?hapikey=e988575f-7359-4f0a-a128-4a9e0b9c3fa4";
+	$ch = @curl_init();
+	@curl_setopt($ch, CURLOPT_POST, true);
+	@curl_setopt($ch, CURLOPT_POSTFIELDS, $post_json);
+	@curl_setopt($ch, CURLOPT_URL, $endpoint);
+	@curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
+	@curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+	$response = @curl_exec($ch);
+	$status_code = @curl_getinfo($ch, CURLINFO_HTTP_CODE);
+	$curl_errors = curl_error($ch);
+	@curl_close($ch);
+	if ($status_code == 200) {
+		header('Location: thank.php');
+		die();
+	}else{
+		$message = 'Lỗi hệ thống';
+	}
+}
+?>
+
 <!DOCTYPE html>
 <!-- saved from url=(0020)http://titangel.com/ -->
 <html class="">
@@ -6,7 +64,7 @@
 	<meta name="keywords" content="Titan Gel, tăng kích thước Dương Vật, kéo dài thời gian quan hệ">
 	<meta name="description" content="Titan Gel kem làm Dương Vật to dài, kéo dài thời gian quan hệ">
 	<meta name="viewport" content="width=device-width">
-	<title>Nhà cung cấp Titan Gel Nga ở Việt Nam. Titan Gel kem làm Dương Vật to dài, kéo dài thời gian quan hệ</title>
+	<title>Titan Gel kem làm Dương Vật to dài, kéo dài thời gian quan hệ, Nhà cung cấp Titan Gel Nga ở Việt Nam</title>
 	<meta name="format-detection" content="telephone=no">
 	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 <!-- 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -22,6 +80,8 @@
 	<link rel="stylesheet" type="text/css" href="./index_files/jquery.fancybox.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="./index_files/bootstrap-grid.min.css">
 	<link rel="stylesheet" type="text/css" href="./index_files/style.css">
+	<link type="text/css" rel="stylesheet" href="./index_files/style(1).css">
+
 	<script type="text/javascript" src="./index_files/init.js"></script>
     <!--[if IE 9]>
 	<link rel="stylesheet" type="text/css" href="css/ie9.css">
@@ -66,7 +126,7 @@
 								</span>
 								</div>
 							</div>
-							<div class="title_timer_bott">Thời gian để được giảm giá 50%</div>
+							<div class="title_timer_bott">Để được giảm giá 50%</div>
 						</div>
 					</div>
 				</div>
@@ -87,13 +147,21 @@
 										<div class="three"></div>
 									</div>
 								</div>
-								<div class="togle-name">Меню</div>
+								<div class="togle-name">Thực đơn</div>
 							</div><!--block-toggle_nav-->
 							<ul class="menu  menu_top" id="menu1" style="display: block;">
-								<li class="opened"><a href="http://titangel.com/">Thành phần và tác dụng</a></li>
-								<li><a href="http://titangel.com/order">Hướng dẫn sử dụng</a></li>
-								<li><a href="http://titangel.com/doctors">Ý kiến chuyên gia</a></li>
-								<li><a href="http://titangel.com/photos">Đặt hàng</a></li>
+								<li class="opened">
+									<a href="#item1">Thành phần và tác dụng</a>
+								</li>
+								<li>
+									<a href="#item2">Hướng dẫn sử dụng</a>
+								</li>
+								<li>
+									<a href="#item3">Ý kiến chuyên gia</a>
+								</li>
+								<li>
+									<a href="#item0">Đặt hàng</a>
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -124,16 +192,65 @@
 
 							</div>
 						</div>
-						<div class="title_timer_bott">Thời gian để được giảm giá 50%</div>
+						<div class="title_timer_bott">Để được giảm giá 50%</div>
 					</div>
 					<div class="product_top"><img src="./index_files/product.png" alt="/"></div>
 				</div>
 
 				<div class="col-xs-12 col-md-6 banner-right">
 					<div class="form_wrap_bann">
-					<div class="title_form">Để đặt hàng chỉ cần điền vào mẫu đơn</div>
+					<div class="title_form" id="item0">Để đặt hàng chỉ cần điền vào mẫu đơn</div>
 							<!--noindex-->
-								<iframe src="./index_files/saved_resource.html" scrolling="no" height="" class="iframe_light" frameborder="0" marginwidth="0"></iframe>
+
+						<form action="index.php#item0" method="post" id="feedback" class="feedback orderformcdn orderformcdn_nonds" name="feedback">
+							<div class="order_form" style="color:#000 !important;">
+								<?php if(isset($message)){ ?>
+									<p style="color: red; text-align: center;"> <?php echo $message; ?></p>
+								<?php } ?>
+
+								<div class="block_form">
+									<input name="name" value="" placeholder="Họ và tên *" required="" oninvalid="setCustomValidity('Họ và tên không để trống')" oninput="setCustomValidity('')" type="text">
+								</div>
+
+								<div class="block_form">
+									<input id="phone" name="phone" value="" placeholder="Số điện thoại *" required="" pattern="^[0-9]{10,12}$" oninvalid="setCustomValidity('Số điện thoại không đúng')" oninput="setCustomValidity('')" type="text">
+								</div>
+
+								<div class="block_form">
+									<textarea id="address" name="address" rows="2" cols="0" placeholder="Địa chỉ *" style="width: 100%;padding: 10px;border: #888 1px solid; border-radius: 5px;" required="" oninvalid="setCustomValidity('Địa chỉ không để trống')" oninput="setCustomValidity('')"></textarea>
+								</div>
+
+								<div class="block_form">
+									<select name="quantity" id="quantity" style="height:35px; width: 100%; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(136, 136, 136); border-radius: 5px;">
+										<option value="1">
+											1 Tuýp
+										</option>
+										<option value="2">
+											2 Tuýp
+										</option>
+										<option value="3">
+											3 Tuýp
+										</option>
+										<option value="4">
+											4 Tuýp
+										</option>
+										<option value="5">
+											5 Tuýp
+										</option>
+										<option value="6">
+											Mua sỉ
+										</option>
+									</select>
+								</div>
+								<p>Hotline: <strong style="font-size: 23px;">01635 243 892</strong></p>
+								<p>Giá: <span style="font-size: 20px;color: red; text-decoration: line-through;">1.500.000</span> - <b>750.000 đ</b></p>
+								<button class="btn btn_sm" type="submit">ĐẶT HÀNG</button>
+								<div class="clear"></div>
+							</div>
+
+						</form>
+
+<!--						<iframe src="./index_files/saved_resource.html" scrolling="no" height="" class="iframe_light" frameborder="0" marginwidth="0"></iframe>-->-->
 							<!--/noindex-->
 					</div>
 			    </div>
@@ -235,9 +352,10 @@
 		</div><!--section2-->
 		<div class="section3">
 			<div class="container">
+
 				<div class="row">
 					<div class="col-xs-12">
-					<h1>TITAN GEL - biện pháp tự nhiên cho sức mạnh nam tính</h1>
+					<h2 id="item1" style="border-bottom: 3px solid #eaeaea;">TITAN GEL - biện pháp tự nhiên cho sức mạnh nam tính</h2>
 					<p class="str-font select_no">
 						<strong>Titan Gel</strong> dẫn đầu thị trường công nghệ tăng thời gian quan hệ tình dục và kích thước dương vật, đảm bảo tăng kích thước của nó lên đến 3-5 cm. Nó là một sản phẩm an toàn mà không gây phản ứng phụ và dị ứng, không dẫn đến sự xuất hiện của tác dụng gây nghiện, vì trong thành phần của nó - có các nguyên liệu tự nhiên đã được phê duyệt bởi các bác sĩ.
 					</p>
@@ -299,6 +417,7 @@
 						</div>
 					</div>
 				</div>
+
 				<div class="row wrap_imems_doc">
 					<div class="col-md-4 shad_block_t">
 						<div class="wrap_shad_block">
@@ -329,104 +448,129 @@
 					</div>
 				</div>
 
-				<div class="content">
-					<h1>Hướng dẫn sử dụng</h1>
-					<div class="item_ins">
-						<div class="left_ins"><img src="./index_files/ins1.png"></div>
-						<div class="right_ins">
-							<div class="wr_inst_text">
-								<div class="inst_text select_no">
-								<span>1. Смазка: </span>
-									Đầu tiên cho Titan gel vào lòng bàn tay sau đó bôi trơn Titan gel đều lên toàn bộ Dương Vật.
-								</div>
-							</div>
-						</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<h2 id="item2" style="border-bottom: 3px solid #eaeaea;">Hướng dẫn sử dụng</h2>
 					</div>
-					<div class="item_ins">
-						<div class="left_ins"><img src="./index_files/ins2.png"></div>
-						<div class="right_ins">
-							<div class="wr_inst_text">
-								<div class="inst_text select_no">
-								<span>2. Уровень эрекции:</span>
-									Vuốt chậm và nhẹ từ đầu đến một nửa dương vật, cách tốt nhất để lưu thông máu.
-								</div>
-								<div class="inst_text select_no">
-								<span>3. ОК-хватка: </span>
-									Trong khi Titan Gel kích thích sự lưu thông máu từ bên trong, tay bạn nắm chặt dương vật sao cho ngón cái và ngón trỏ tạo thành hình "OK" như trong hình
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item_ins">
-						<div class="left_ins"><img src="./index_files/ins3.png"></div>
-						<div class="right_ins">
-							<div class="wr_inst_text">
-								<div class="inst_text select_no">
-								<span>4. Начните с основания:</span>
-									Bắt đầu từ đầu dương vật bạn đưa tay về phía xương mu qua thân dương vật tới cuối.
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item_ins">
-						<div class="left_ins"><img src="./index_files/ins4.png"></div>
-						<div class="right_ins">
-							<div class="wr_inst_text">
-								<div class="inst_text select_no">
-								<span>5. Двигаемся вверх:</span>
-									Siết vòng ngón tay, di chuyển và chậm dọc trục lên phía đầu dương vật,  điều quan trọng là để cung cấp áp suất tối ưu cho dương vật - theo hình, nhưng đồng thời không gây đau.
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item_ins">
-						<div class="left_ins"><img src="./index_files/ins5.png"></div>
-						<div class="right_ins">
-							<div class="wr_inst_text">
-								<div class="inst_text select_no">
-								<span>6. Остановка перед головкой:</span>
-									Vươn tay tới đầu của dương vật, bạn cần phải dừng lại - đây là một bài tập lặp lại, mà nên kéo dài khoảng ba giây.
-								</div>
-								<div class="inst_text select_no">
-								<span>7. ПОВТОР:</span>
-									Sau khi hoàn thành một chu kỳ, bạn lặp lại toàn bộ chuỗi các hành động trên kích thích thêm lưu lượng máu trong dương vật.
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="item_ins">
+							<div class="left_ins"><img src="./index_files/ins1.png"></div>
+							<div class="right_ins">
+								<div class="wr_inst_text">
+									<div class="inst_text select_no">
+										<span>1. Dầu mỡ: </span>
+										Đầu tiên cho Titan gel vào lòng bàn tay sau đó bôi trơn Titan gel đều lên toàn bộ dương vật.
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="w_font6"><h3>Tại sao Titanium Gel lại kết hợp tập thể dục?</h3></div>
-					<div class="block_text_content">
-						<p class="select_no">
-						Cơ chế hoạt động là gì? Kem Titan gel có chứa các thành phần hoàn toàn an toàn mà được hấp thu qua da vào sâu bên trong dương vật, để thâm nhập sâu hơn mức độ tế bào, kích thích tiềm năng, tăng độ nhạy cảm và quan trọng nhất, thúc đẩy căng cơ quan hang của dương vật phát triển.
-						</p>
-						<div class="img_ins_center"><img src="./index_files/center_img.jpg"></div>
-						<p class="select_no">
-							Quá trình này - sự mở rộng của cơ hang, đẩy mạnh quá trình chao đổi chất tăng lưu lượng máu lưu thong trong dương vật, mà là chịu trách nhiệm cho các hoạt chất bằng Titan gel. Một mục tiêu tương tự như đã mô tả các bài tập.
-						</p>
+					<div class="col-md-6">
+						<div class="item_ins">
+							<div class="left_ins"><img src="./index_files/ins2.png"></div>
+							<div class="right_ins">
+								<div class="wr_inst_text">
+									<div class="inst_text select_no">
+										<span>2. Mức độ cương cứng:</span>
+										Vuốt chậm và nhẹ từ đầu đến một nửa dương vật, cách tốt nhất để lưu thông máu.
+									</div>
+									<div class="inst_text select_no">
+										<span>3. Tạo hình - "OK": </span>
+										Trong khi Titan Gel kích thích sự lưu thông máu từ bên trong, tay bạn nắm chặt dương vật sao cho ngón cái và ngón trỏ tạo thành hình "OK" như trong hình
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="block_text_content  clearfix">
-						<div class="foto_left"><img src="./index_files/ins4.jpg" alt=""></div>
-						<p class="select_no">
-							Nhưng chú ý là một bài tập riêng biệt(Tập không dùng Titan gel) kém hiệu quả, bài tập cung cấp một kết quả thấp.
-						</p>
-						<p class="select_no">
-							Đặc biệt, để đạt được một hiệu ứng mà Titanium gel có thể cung cấp trong vài tuần bằng bạn để mất khoảng một năm. Vì vậy, lựa chọn khả thi nhất - để kết hợp hai kỹ thuật này là cách phát triển tốt nhất, nói theo nghĩa bóng, một cú đúp.
-						</p>
-						<p class="select_no">
-							Thứ nhất, sử dụng Titan Gel kem cùng với bài tập thể dục bạn làm tăng kích thước dương vật và tạo thêm sức bền cho <a href="http://titangel.com/kak-uvelichit-chlen.html">các thành phần trong dương vật</a>.  Thứ hai, việc mở rộng các hang của dương vật có thể kiểm soát xuất tinh sớm, cải thiện độ nhạy cảm, tăng độ cương cứng đem lại cảm giác mạnh về độ cực khoái.
-						</p>
+				</div>
+				<div class="row">
+				<div class="col-md-6">
+						<div class="item_ins">
+							<div class="left_ins"><img src="./index_files/ins3.png"></div>
+							<div class="right_ins">
+								<div class="wr_inst_text">
+									<div class="inst_text select_no">
+										<span>4. Bắt đầu:</span>
+										Bắt đầu từ đầu dương vật bạn đưa tay về phía xương mu qua thân dương vật tới cuối.
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 
+					<div class="col-md-6">
+						<div class="item_ins">
+							<div class="left_ins"><img src="./index_files/ins4.png"></div>
+							<div class="right_ins">
+								<div class="wr_inst_text">
+									<div class="inst_text select_no">
+										<span>5. Di chuyển lên:</span>
+										Siết vòng ngón tay, di chuyển và chậm dọc trục lên phía đầu dương vật,  điều quan trọng là để cung cấp áp suất tối ưu cho dương vật - theo hình, nhưng đồng thời không gây đau.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+				<div class="col-md-6">
+						<div class="item_ins">
+							<div class="left_ins"><img src="./index_files/ins5.png"></div>
+							<div class="right_ins">
+								<div class="wr_inst_text">
+									<div class="inst_text select_no">
+										<span>6. Dừng ở phía trước của đầu:</span>
+										Vươn tay tới đầu của dương vật, bạn cần phải dừng lại - đây là một bài tập lặp lại, mà nên kéo dài khoảng ba giây.
+									</div>
+									<div class="inst_text select_no">
+										<span>7. Lặp lại:</span>
+										Sau khi hoàn thành một chu kỳ, bạn lặp lại toàn bộ chuỗi các hành động trên kích thích thêm lưu lượng máu trong dương vật.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 
+					<div class="col-md-6">
+						<div class="block_inl_center">
+							<a href="#item0" class="btn btn_sm">Đặt hàng</a>
+						</div>
+					</div>
+				</div>
 
-
-
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="w_font6"><h3>Tại sao Titanium Gel lại kết hợp tập thể dục?</h3></div>
+						<div class="block_text_content">
+							<p class="select_no">
+							Cơ chế hoạt động là gì? Kem Titan gel có chứa các thành phần hoàn toàn an toàn mà được hấp thu qua da vào sâu bên trong dương vật, để thâm nhập sâu hơn mức độ tế bào, kích thích tiềm năng, tăng độ nhạy cảm và quan trọng nhất, thúc đẩy căng cơ quan hang của dương vật phát triển.
+							</p>
+							<div class="img_ins_center"><img src="./index_files/center_img.jpg"></div>
+							<p class="select_no">
+								Quá trình này - sự mở rộng của cơ hang, đẩy mạnh quá trình chao đổi chất tăng lưu lượng máu lưu thông trong dương vật, mà là chịu trách nhiệm cho các hoạt chất bằng Titan gel. Một mục tiêu tương tự như đã mô tả các bài tập.
+							</p>
+						</div>
+						<div class="block_text_content  clearfix">
+							<div class="foto_left"><img src="./index_files/ins4.jpg" alt=""></div>
+							<p class="select_no">
+								Nhưng chú ý là một bài tập riêng biệt(Tập không dùng Titan gel) kém hiệu quả, bài tập cung cấp một kết quả thấp.
+							</p>
+							<p class="select_no">
+								Đặc biệt, để đạt được một hiệu ứng mà Titanium gel có thể cung cấp trong vài tuần bằng bạn để mất khoảng một năm. Vì vậy, lựa chọn khả thi nhất - để kết hợp hai kỹ thuật này là cách phát triển tốt nhất, nói theo nghĩa bóng, một cú đúp.
+							</p>
+							<p class="select_no">
+								Thứ nhất, sử dụng Titan Gel kem cùng với bài tập thể dục bạn làm tăng kích thước dương vật và tạo thêm sức bền cho các thành phần trong dương vật.  Thứ hai, việc mở rộng các hang của dương vật có thể kiểm soát xuất tinh sớm, cải thiện độ nhạy cảm, tăng độ cương cứng đem lại cảm giác mạnh về độ cực khoái.
+							</p>
+						</div>
+					</div>
 				</div>
 
 				<div class="row">
 					<div class="col-xs-12 content">
-						<h1>Ý kiến của các chuyên gia</h1>
+						<h2 id="item3"  style="border-bottom: 3px solid #eaeaea;">Ý kiến chuyên gia</h2>
 						<div class="block_text_doctor">
 							<div class="block_doc">
 								<div class="img_doc"><img src="images/work2.png" alt=""></div>
@@ -478,9 +622,6 @@
 					</div>
 				</div>
 
-
-
-
 			</div>
 		</div><!--section3-->
 	</div><!--section_middle-->
@@ -495,7 +636,7 @@
 						</div>
 					</div>
 					<div class="block_inl_center">
-						<a href="http://titangel.com/order" class="btn btn_sm">Đặt hàng</a>
+						<a href="#item0" class="btn btn_sm">Đặt hàng</a>
 					</div>
 				</div>
 			</div>
@@ -562,19 +703,17 @@
 									<div class="three"></div>
 								</div>
 							</div>
-							<div class="togle-name">Меню</div>
+							<div class="togle-name">Thực đơn</div>
 						</div><!--block-toggle_nav-->
 						<ul class="menu_bottom" id="menu2" style="display: block;">
-							<li class="opened"><a href="http://titangel.com/">Главная</a></li>
-							<li><a href="http://titangel.com/order">Оформить заказ</a></li>
-							<li><a href="http://titangel.com/doctors">Мнение врачей</a></li>
-							<li><a href="http://titangel.com/photos">Фото До/После</a></li>
-							<li><a href="http://titangel.com/instruction">Инструкция</a></li>
-							<li><a href="http://titangel.com/guarantee">Гарантии</a></li>
-							<li><a href="http://titangel.com/delivery">Доставка</a></li>
-							<li><a href="http://titangel.com/reviews">Отзывы</a></li>
-							<li><a href="http://titangel.com/contacts">Контакты</a></li>
-							<li><a href="http://titangel.com/sitemap">Карта сайта</a></li>
+							<li class="opened"><a href="#item1">Thành phần, tác dụng</a></li>
+							<li><a href="#item2">Hướng dẫn sử dụng</a></li>
+							<li><a href="#item3">Ý kiến chuyên gia</a></li>
+							<li><a href="#item0">718 Đường Láng - HN</a></li>
+							<li><a href="https://www.facebook.com/titangelrussia.comm/"  target="_blank">Facebook</a></li>
+							<li><a href="https://www.youtube.com/watch?v=9Ci-noZzgqo" target="_blank">Bt1 - Stretching</a></li>
+							<li><a href="https://www.youtube.com/watch?v=8s8KZx11M7E" target="_blank">Bt2 - jelqing</a></li>
+							<li><a href="https://www.youtube.com/watch?v=2ozo7nv4Axg" target="_blank">Bt3 - Kegel</a></li>
 						</ul>
 					</div>
 				</div>
@@ -597,7 +736,7 @@
 						</div>
 					</div><!--timer_wrap_foot-->
 					<div class="wrap_btn_foot">
-						<a href="http://titangel.com/order" class="btn btn_bg">Đặt hàng</a>
+						<a href="#item0" class="btn btn_bg">Đặt hàng</a>
 					</div>
 				</div>
 				<div class="col-xs-12">
@@ -606,10 +745,10 @@
 		
 				<div class="col-xs-6 col-md-6 bott_soc">
 					<div class="social">
-						<a href="http://titangel.com/" class="icon_f"></a>
-						<a href="http://titangel.com/" class="icon_tw"></a>
-						<a href="http://titangel.com/" class="icon_vk"></a>
-						<a href="http://titangel.com/" class="icon_ok"></a>
+						<a href="https://www.facebook.com/titangelrussia.comm/" class="icon_f" target="_blank"></a>
+						<a href="#item0" class="icon_tw"></a>
+						<a href="#item0" class="icon_vk"></a>
+						<a href="#item0" class="icon_ok"></a>
 					</div>
 				</div>
 				<div class="col-xs-6 col-md-6  bott_copy">
@@ -623,14 +762,14 @@
 		</div>	
 	</div><!--wrap_footer-->
 	
-	<div id="kmacb" class="kmacb__manager kmacb__manager-man1">
-        <a href="./index_files/popup.html" class="various fancybox.iframe">
-            <div class="kmacb__manager-circle"></div>
-            <div class="kmacb__manager-fill"></div>
-            <div class="kmacb__manager-border"></div>
-            <div class="kmacb__manager-img"></div>
-        </a>
-    </div>	
+<!--	<div id="kmacb" class="kmacb__manager kmacb__manager-man1">-->
+<!--        <a href="./index_files/popup.html" class="various fancybox.iframe">-->
+<!--            <div class="kmacb__manager-circle"></div>-->
+<!--            <div class="kmacb__manager-fill"></div>-->
+<!--            <div class="kmacb__manager-border"></div>-->
+<!--            <div class="kmacb__manager-img"></div>-->
+<!--        </a>-->
+<!--    </div>	-->
 </div> <!-- wrapper -->
 <!--noindex-->	
 <!-- Yandex.Metrika counter -->
