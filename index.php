@@ -247,14 +247,11 @@ if(isset($_POST['name'])) {
 								<button class="btn btn_sm" type="submit">ĐẶT HÀNG</button>
 								<div class="clear"></div>
 							</div>
-
 						</form>
 
-<!--						<iframe src="./index_files/saved_resource.html" scrolling="no" height="" class="iframe_light" frameborder="0" marginwidth="0"></iframe>-->-->
-							<!--/noindex-->
 					</div>
 			    </div>
-				
+					
 				<div class="col-xs-12 col-md-6 banner-left">
 					<div class="banner_title-l1">
 						Cam kết 100% hiệu quả:
@@ -761,15 +758,7 @@ if(isset($_POST['name'])) {
 			</div><!--row-->
 		</div>	
 	</div><!--wrap_footer-->
-	
-<!--	<div id="kmacb" class="kmacb__manager kmacb__manager-man1">-->
-<!--        <a href="./index_files/popup.html" class="various fancybox.iframe">-->
-<!--            <div class="kmacb__manager-circle"></div>-->
-<!--            <div class="kmacb__manager-fill"></div>-->
-<!--            <div class="kmacb__manager-border"></div>-->
-<!--            <div class="kmacb__manager-img"></div>-->
-<!--        </a>-->
-<!--    </div>	-->
+
 </div> <!-- wrapper -->
 <!--noindex-->	
 <!-- Yandex.Metrika counter -->
