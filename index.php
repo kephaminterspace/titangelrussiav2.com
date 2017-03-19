@@ -62,9 +62,9 @@ if(isset($_POST['name'])) {
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="keywords" content="Titan Gel, Gel Titan, tăng kích thước Dương Vật, làm to và dài Dương Vật, kéo dài thời gian quan hệ">
-	<meta name="description" content="Titan Gel kem làm Dương Vật to và dài, Titan Gel tăng kích thước Dương Vật, kéo dài thời gian quan hệ một cách tự nhiên">
+	<meta name="description" content="Titan Gel kem làm Dương Vật to và dài, Titan Gel tăng kích thước Dương Vật, kéo dài thời gian quan hệ một cách tự nhiên, Nhà cung cấp Titan Gel Nga ở Việt Nam">
 	<meta name="viewport" content="width=device-width">
-	<title>Titan Gel kem làm Dương Vật to dài, kéo dài thời gian quan hệ, Nhà cung cấp Titan Gel Nga ở Việt Nam</title>
+	<title>Titan Gel làm to, dài Dương Vật và kéo dài thời gian quan hệ một cách tự nhiên</title>
 	<meta name="format-detection" content="telephone=no">
 	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 <!-- 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
