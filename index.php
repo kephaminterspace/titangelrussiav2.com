@@ -92,7 +92,58 @@ if(isset($_POST['name'])) {
 	<script type="text/javascript" src="oldbrowser/jquery.reject.js"></script>
 	<script type="text/javascript" src="oldbrowser/old.js"></script>
 	<![endif]-->
-	<style type="text/css">.fancybox-margin{margin-right:15px;}</style></head>
+	<style type="text/css">.fancybox-margin{margin-right:15px;}</style>
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-86937922-1', 'auto');
+		ga('require', 'linkid', 'linkid.js');
+		ga('require', 'displayfeatures');
+		ga('send', 'pageview');
+	</script>
+
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+			n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+			n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+			t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+			document,'script','https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '1840988602805891', {
+			em: 'insert_email_variable,'
+		});
+		fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+				   src="https://www.facebook.com/tr?id=1840988602805891&ev=PageView&noscript=1"
+		/></noscript>
+	<!-- DO NOT MODIFY -->
+	<!-- End Facebook Pixel Code -->
+</head>
+
+	<!-- Google Code for Gel Titan Conversion Page -->
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		var google_conversion_id = 1020901928;
+		var google_conversion_language = "en";
+		var google_conversion_format = "3";
+		var google_conversion_color = "ffffff";
+		var google_conversion_label = "4O-JCOTeum0QqPTm5gM";
+		var google_remarketing_only = false;
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+	</script>
+	<noscript>
+		<div style="display:inline;">
+			<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1020901928/?label=4O-JCOTeum0QqPTm5gM&amp;guid=ON&amp;script=0"/>
+		</div>
+	</noscript>
+
 <body>
 <div class="wrapper">
 	<div class="head_top">
@@ -101,7 +152,7 @@ if(isset($_POST['name'])) {
 				<div class="col-xs-12">
 					<div class="head_top_right">
 						<div class="tell_top"></div>
-						<div class="slogan_bott select_no"> Titan Gel - Kem №1 làm tăng kích thước Dương Vật tại nhà, kéo dài thời gian quan hệ</div>
+						<div class="slogan_bott select_no"> Titan Gel - Kem №1 làm tăng kích thước Dương Vật, kéo dài thời gian quan hệ một cách tự nhiên</div>
 					</div>
 					<div class="row_logo">
 						<a href="http://titangelrussia.com/" class="logo_top">
@@ -799,4 +850,6 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 ";"+Math.random();//--></script><!--/LiveInternet-->
 <!--/noindex-->
 
-</body></html>
+</body>
+
+</html>
