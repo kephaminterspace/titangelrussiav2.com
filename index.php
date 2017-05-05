@@ -587,33 +587,6 @@ if(isset($_POST['name'])) {
 						</div>
 					</div>
 				</div>
-
-				<div class="row" id="hidd1" style="display: none;">
-					<div class="col-xs-12">
-						<div class="w_font6"><h3>Tại sao Titanium Gel lại kết hợp tập thể dục Dương Vật?</h3></div>
-						<div class="block_text_content">
-							<p class="select_no">
-							<strong>+</strong>&nbsp;Cơ chế hoạt động là gì? Kem Titan gel có chứa các thành phần hoàn toàn an toàn mà được hấp thu qua da vào sâu bên trong Dương Vật, để thâm nhập sâu hơn mức độ tế bào, kích thích tiềm năng, tăng độ nhạy cảm và quan trọng nhất, thúc đẩy căng cơ quan hang của Dương Vật phát triển.
-							</p>
-
-							<p class="select_no">
-								<strong>-</strong>&nbsp;Quá trình này - sự mở rộng của cơ hang, đẩy mạnh quá trình chao đổi chất tăng lưu lượng máu lưu thông trong Dương Vật, mà là chịu trách nhiệm cho các hoạt chất bằng Titan gel. Một mục tiêu tương tự như đã mô tả các bài tập.
-							</p>
-						</div>
-						<div class="block_text_content  clearfix">
-							<p class="select_no">
-								<strong>+</strong>&nbsp;Nhưng chú ý là một bài tập riêng biệt(Tập không dùng Titan gel) kém hiệu quả, bài tập cung cấp một kết quả thấp.
-							</p>
-							<p class="select_no">
-								<strong>-</strong>&nbsp;Đặc biệt, để đạt được một hiệu ứng mà Titanium gel có thể cung cấp trong vài tuần bằng bạn để mất khoảng một năm. Vì vậy, lựa chọn khả thi nhất - để kết hợp hai kỹ thuật này là cách phát triển tốt nhất, nói theo nghĩa bóng, một cú đúp.
-							</p>
-							<p class="select_no">
-								<strong>-</strong>&nbsp;Thứ nhất, sử dụng Titan Gel kem cùng với bài tập thể dục bạn làm tăng kích thước Dương Vật và tạo thêm sức bền cho các thành phần trong Dương Vật.  Thứ hai, việc mở rộng các hang của Dương Vật có thể kiểm soát xuất tinh sớm, cải thiện độ nhạy cảm, tăng độ cương cứng đem lại cảm giác mạnh về độ cực khoái.
-							</p>
-						</div>
-					</div>
-				</div>
-
 				<div class="row">
 					<div class="col-xs-12 content">
 						<h2 id="item3"  style="border-bottom: 3px solid #eaeaea;">Ý kiến chuyên gia</h2>
