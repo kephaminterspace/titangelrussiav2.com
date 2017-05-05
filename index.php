@@ -414,7 +414,7 @@ if(isset($_POST['name'])) {
 									</div>
 									<div class="body_comp">
 										<div class="title_comp">Thistle</div>
-										<p>Tăng mức Lưu thông máu</p>
+										<p>Tăng mức lưu thông máu</p>
 									</div>
 								</div><div class="block_comp block_comp2">
 									<div class="img_comp">
