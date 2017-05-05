@@ -705,7 +705,7 @@ if(isset($_POST['name'])) {
 			<div class="row">
 				<div class="col-md-6 col-lg-5 col_foot foot_menu">
 					<div class="slog_foot"><span class="sp_b">Một lần và cho tất cả!</span>
-						<span class="font_b">Kết quả rõ rệt trong vài tuần</span>
+						<span class="font_b">Kết quả rõ rệt trong 4 tuần</span>
 					</div>
 					<div class="block-menu_nav">
 						<div class="block-toggle_nav">
