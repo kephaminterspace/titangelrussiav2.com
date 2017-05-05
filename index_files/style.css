@@ -703,7 +703,7 @@ a:hover{
 .block_inl_center{
     display: inline-block;
     vertical-align: middle;
-    margin: 10px 10px 10px 60px;
+    margin-bottom: 15px;
 }
 .text_bann_center{
     color: #fff;

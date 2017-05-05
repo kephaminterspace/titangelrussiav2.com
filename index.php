@@ -61,10 +61,10 @@ if(isset($_POST['name'])) {
 <html class="">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="keywords" content="Titan Gel, Gel Titan, tăng kích thước Dương Vật, làm to và dài Dương Vật, kéo dài thời gian quan hệ">
-	<meta name="description" content="Titan Gel kem làm Dương Vật to và dài, Titan Gel tăng kích thước Dương Vật, kéo dài thời gian quan hệ một cách tự nhiên, Nhà cung cấp Titan Gel Nga ở Việt Nam">
+	<meta name="keywords" content="Titan Gel, Titan Gel Nga, Gel Titan, Dương Vật, quan hệ">
+	<meta name="description" content="Titan Gel kem làm Dương Vật to và dài một cách tự nhiên, kéo dài thời gian quan hệ. Nhà cung cấp Titan Gel Nga ở Việt Nam">
 	<meta name="viewport" content="width=device-width">
-	<title>Titan Gel làm to, dài Dương Vật và kéo dài thời gian quan hệ một cách tự nhiên</title>
+	<title>To và dài Dương Vật an toàn</title>
 	<meta name="format-detection" content="telephone=no">
 	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 <!-- 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -94,18 +94,6 @@ if(isset($_POST['name'])) {
 	<![endif]-->
 	<style type="text/css">.fancybox-margin{margin-right:15px;}</style>
 
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-86937922-1', 'auto');
-		ga('require', 'linkid', 'linkid.js');
-		ga('require', 'displayfeatures');
-		ga('send', 'pageview');
-	</script>
-
 	<!-- Facebook Pixel Code -->
 	<script>
 		!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -123,16 +111,17 @@ if(isset($_POST['name'])) {
 		/></noscript>
 	<!-- DO NOT MODIFY -->
 	<!-- End Facebook Pixel Code -->
-</head>
 
-	<!-- Google Code for Gel Titan Conversion Page -->
+	<!-- Google Code for H&agrave;nh &#273;&#7897;ng chuy&#7875;n &#273;&#7893;i Conversion Page -->
 	<script type="text/javascript">
 		/* <![CDATA[ */
-		var google_conversion_id = 1020901928;
+		var google_conversion_id = 869085517;
 		var google_conversion_language = "en";
 		var google_conversion_format = "3";
 		var google_conversion_color = "ffffff";
-		var google_conversion_label = "4O-JCOTeum0QqPTm5gM";
+		var google_conversion_label = "s2e3CIH55nAQzeK0ngM";
+		var google_conversion_value = 1.00;
+		var google_conversion_currency = "VND";
 		var google_remarketing_only = false;
 		/* ]]> */
 	</script>
@@ -140,11 +129,23 @@ if(isset($_POST['name'])) {
 	</script>
 	<noscript>
 		<div style="display:inline;">
-			<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1020901928/?label=4O-JCOTeum0QqPTm5gM&amp;guid=ON&amp;script=0"/>
+			<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/869085517/?value=1.00&amp;currency_code=VND&amp;label=s2e3CIH55nAQzeK0ngM&amp;guid=ON&amp;script=0"/>
 		</div>
 	</noscript>
 
+</head>
 <body>
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-98481969-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
 <div class="wrapper">
 	<div class="head_top">
 		<div class="container">
@@ -155,7 +156,7 @@ if(isset($_POST['name'])) {
 						<div class="slogan_bott select_no"> Titan Gel - Kem №1 làm tăng kích thước Dương Vật, kéo dài thời gian quan hệ một cách tự nhiên</div>
 					</div>
 					<div class="row_logo">
-						<a href="http://titangelrussia.com/" class="logo_top">
+						<a href="http://titangelchinhhang.net/" class="logo_top">
 							<img src="./index_files/logo_top.png" alt="Tăng kích thước Dương Vật tại nhà, kéo dài thời gian quan hệ">
 						</a>
 					</div>
@@ -250,7 +251,7 @@ if(isset($_POST['name'])) {
 
 				<div class="col-xs-12 col-md-6 banner-right">
 					<div class="form_wrap_bann">
-					<div class="title_form" id="item0">Để đặt hàng chỉ cần điền vào mẫu đơn</div>
+					<div class="title_form" id="item0">Để đặt hàng chỉ cần điền vào mẫu</div>
 							<!--noindex-->
 
 						<form action="index.php#item0" method="post" id="feedback" class="feedback orderformcdn orderformcdn_nonds" name="feedback">
@@ -304,16 +305,14 @@ if(isset($_POST['name'])) {
 			    </div>
 					
 				<div class="col-xs-12 col-md-6 banner-left">
-					<div class="banner_title-l1">
-						Cam kết 100% hiệu quả:
-					</div>
+
 					<ul class="banner_ul select_no">
 						<li><i class="icon icon1"></i>Một lần duy nhất trong ngày</li>
 						<li><i class="icon icon2"></i>Phát triển một cách tự nhiên</li>
 						<li><i class="icon icon3"></i>Kéo dài thời gian quan hệ</li>
 						<li><i class="icon icon4"></i>Cải thiện độ cương cứng</li>
 						<li><i class="icon icon5"></i>Tăng ham muốn tình dục</li>
-						<li><i class="icon icon6"></i>Tăng kích thước lên 5-7 см</li>
+						<li><i class="icon icon6"></i>Tăng kích thước lên tối đa</li>
 						<li><i class="icon icon7"></i>Phê duyệt bởi поpнo-звездами</li>
 					</ul>
 					<div class="banner_title-l2">
@@ -335,14 +334,14 @@ if(isset($_POST['name'])) {
 										<img src="./index_files/descript1.png" alt="/">
 									</div>
 									<div class="media-body select_no">
-										Kéo dài thời gian yêu 1 cách rõ rệt
+										Kéo dài thời gian yêu một cách rõ rệt
 									</div>
 								</div><div class="media">
 									<div class="img_media">
 										<img src="./index_files/descript2.png" alt="/">
 									</div>
 									<div class="media-body select_no">
-										Tăng chiều dài và chu vi dương vật
+										Tăng chiều dài và chu vi Dương Vật
 									</div>
 								</div><div class="media">
 									<div class="img_media">
@@ -383,13 +382,13 @@ if(isset($_POST['name'])) {
 								<div class="att_block_text">
 									<div class="att_title">Cảnh báo!</div>
 									<p class="select_no">
-										Trang web của chúng tôi là nhà cung cấp Titan Gel Nga ở Việt Nam. Cảnh báo các sản phẩm Titan Gel bên ngoài - nó không phải là hoàn toàn phù hợp với các Bạn, Nó không những làm bạn mất tiền mà còn ảnh hưởng đến sức khỏe của bạn, nói cách khác đó là hàng kém chất lượng, không cho kết quả mong muốn.
+										Trang web của chúng tôi chuyên cung cấp Titan Gel Nga chính hãng ở Việt Nam.
 									</p>
 									<p class="select_no">
-										Sự nhầm lẫn của đa số khách hàng là mua nhầm phải Titan Gel giả, kém chất lượng mà nghĩ đó là Titan Gel, khi sử dụng không hiệu quả lại nghĩ Titan Gel lừa
+										Sự nhầm lẫn của một số khách hàng là mua nhầm phải Titan Gel giả, kém chất lượng, khi sử dụng không hiệu quả lại nghĩ Titan Gel lừa
 									</p>
 									<p class="str-font select_no">
-										Hãy coi chừng hàng giả và chỉ có thể được đặt trên trang web của chúng tôi để có được một chất lượng 100% với giá cả phải chăng!
+										Coi chừng hàng giả! Hãy đặt hàng trên trang web của chúng tôi để có được một sản phẩm chất lượng, chính hãng với giá cả phải chăng!
 									</p>
 								</div>
 							</div>
@@ -403,10 +402,10 @@ if(isset($_POST['name'])) {
 
 				<div class="row">
 					<div class="col-xs-12">
-					<h2 id="item1" style="border-bottom: 3px solid #eaeaea;">TITAN GEL - biện pháp tự nhiên cho sức mạnh nam tính</h2>
-					<p class="str-font select_no">
-						<strong>Titan Gel</strong> dẫn đầu thị trường công nghệ tăng thời gian quan hệ tình dục và kích thước dương vật, đảm bảo tăng kích thước của nó lên đến 3-5 cm. Nó là một sản phẩm an toàn mà không gây phản ứng phụ và dị ứng, không dẫn đến sự xuất hiện của tác dụng gây nghiện, vì trong thành phần của nó - có các nguyên liệu tự nhiên đã được phê duyệt bởi các bác sĩ.
-					</p>
+					<h2 id="item1" style="border-bottom: 3px solid #eaeaea;">TITAN GEL - Liệu pháp tự nhiên cho sức mạnh nam tính</h2>
+						<p class="str-font select_no">
+							<strong>Titan Gel</strong> tăng trưởng cao về thị trường công nghệ tăng thời gian quan hệ tình dục và kích thước Dương Vật. Nó là một sản phẩm an toàn mà không gây phản ứng phụ và dị ứng, không dẫn đến sự xuất hiện của tác dụng gây nghiện, vì trong thành phần của nó - có các nguyên liệu thiên nhiên.
+						</p>
 						<div class="wrap_compos_block">
 							<div class="comp_center"><img src="./index_files/compos_center.png" alt="/"></div>
 							<div class="slider_compos"><div class="block_comp block_comp1">
@@ -415,7 +414,7 @@ if(isset($_POST['name'])) {
 									</div>
 									<div class="body_comp">
 										<div class="title_comp">Thistle</div>
-										<p>Tăng mức testosterone</p>
+										<p>Tăng mức Lưu thông máu</p>
 									</div>
 								</div><div class="block_comp block_comp2">
 									<div class="img_comp">
@@ -439,15 +438,15 @@ if(isset($_POST['name'])) {
 									</div>
 									<div class="body_comp">
 										<div class="title_comp">Goryanka</div>
-										<p>Có các tính chất của <span>Viagra</span></p>
+										<p>Trị rối loạn cương dương</span></p>
 									</div>
 								</div></div><!--slider_compos-->
 						</div>
 						<div class="block_text">
 							<p class="select_no">
-								Mua Titan Gel - là bước đầu tiên trong việc giải quyết một vấn đề mà nhiều phụ nữ than phiền(cụ thể là kích thước không đủ để mang đến cực khoái của đối tác của bạn). Kem Titan gel sẽ giúp tăng đáng kể kích thước dương vật và mang đến cho bạn cơ hội để làm cho cuộc sống tình dục của bạn sáng hơn nhiều, quan hệ tình dục sẽ đem lại cho bạn sự hài lòng đến kinh ngạc và đạt độ cực khoái với cường độ cao nhất, bền và độc đáo, có thể thay đổi cuộc sống của bạn mãi mãi!
+								Mua Titan Gel - là bước đầu tiên trong việc giải quyết một vấn đề mà nhiều phụ nữ than phiền(cụ thể là kích thước không đủ để mang đến cực khoái của đối tác của bạn). Kem Titan gel sẽ giúp tăng đáng kể kích thước Dương Vật và mang đến cho bạn cơ hội để làm cho cuộc sống tình dục của bạn sáng hơn nhiều, quan hệ tình dục sẽ đem lại cho bạn sự hài lòng đến kinh ngạc và đạt độ cực khoái với cường độ cao nhất, bền và độc đáo, có thể thay đổi cuộc sống của bạn mãi mãi!
 							</p>
-							<div class="hidden_text" id="hidd1" style="display: inline;">
+							<div class="hidden_text">
 							<p class="select_no">
 								Titan Gel Nó sẽ mang đến cho bạn sự tự tin, luôn sẵn sàng để yêu và làm đối tác hài lòng! Loại kem này sẽ cho một kết quả mà chắc chắn sẽ là một nguyên nhân của nam giới tự hào. Kích thước mới sẽ ở lại với bạn cho cuộc sống, ngay cả sau khi chấm dứt việc sử dụng nó. Để chở thành một người đàn ông thực thụ hãy đặt hàng trên trang web của chúng tôi. Chúc may mắn và kích thước lớn!
 							</p>
@@ -456,7 +455,7 @@ if(isset($_POST['name'])) {
 							</p>
 							</div>
 						</div>
-						<h2>Kem<span> Titan Gel</span> Nga cho kết quả 100% </h2>
+
 						<div class="font-title3"></div>
 						<div class="block_text">
 							<p>
@@ -502,32 +501,32 @@ if(isset($_POST['name'])) {
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-12">
 						<div class="item_ins">
-							<div class="left_ins"><img src="./index_files/ins1.png"></div>
+
 							<div class="right_ins">
 								<div class="wr_inst_text">
 									<div class="inst_text select_no">
-										<span>1. Dầu mỡ: </span>
-										Đầu tiên cho Titan gel vào lòng bàn tay sau đó bôi trơn Titan gel đều lên toàn bộ dương vật.
+										<span>1. Bôi trơn: </span>
+										Đầu tiên cho Titan gel vào lòng bàn tay sau đó bôi trơn Titan gel đều lên toàn bộ Dương Vật.
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-md-6">
+					<div class="col-md-12">
 						<div class="item_ins">
-							<div class="left_ins"><img src="./index_files/ins2.png"></div>
+
 							<div class="right_ins">
 								<div class="wr_inst_text">
 									<div class="inst_text select_no">
 										<span>2. Mức độ cương cứng:</span>
-										Vuốt chậm và nhẹ từ đầu đến một nửa dương vật, cách tốt nhất để lưu thông máu.
+										Vuốt chậm và nhẹ từ đầu đến một nửa Dương Vật, cách tốt nhất để lưu thông máu.
 									</div>
 									<div class="inst_text select_no">
 										<span>3. Tạo hình - "OK": </span>
-										Trong khi Titan Gel kích thích sự lưu thông máu từ bên trong, tay bạn nắm chặt dương vật sao cho ngón cái và ngón trỏ tạo thành hình "OK" như trong hình
+										Trong khi Titan Gel kích thích sự lưu thông máu từ bên trong, tay bạn nắm chặt Dương Vật sao cho ngón cái và ngón trỏ tạo thành hình "OK"
 									</div>
 								</div>
 							</div>
@@ -535,28 +534,28 @@ if(isset($_POST['name'])) {
 					</div>
 				</div>
 				<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-12">
 						<div class="item_ins">
-							<div class="left_ins"><img src="./index_files/ins3.png"></div>
+
 							<div class="right_ins">
 								<div class="wr_inst_text">
 									<div class="inst_text select_no">
 										<span>4. Bắt đầu:</span>
-										Bắt đầu từ đầu dương vật bạn đưa tay về phía xương mu qua thân dương vật tới cuối.
+										Bắt đầu từ đầu Dương Vật bạn đưa tay về phía xương mu qua thân Dương Vật tới cuối.
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-md-6">
+					<div class="col-md-12">
 						<div class="item_ins">
-							<div class="left_ins"><img src="./index_files/ins4.png"></div>
+
 							<div class="right_ins">
 								<div class="wr_inst_text">
 									<div class="inst_text select_no">
 										<span>5. Di chuyển lên:</span>
-										Siết vòng ngón tay, di chuyển và chậm dọc trục lên phía đầu dương vật,  điều quan trọng là để cung cấp áp suất tối ưu cho dương vật - theo hình, nhưng đồng thời không gây đau.
+										Siết vòng ngón tay, di chuyển và chậm dọc trục lên phía đầu Dương Vật,  điều quan trọng là để cung cấp áp suất tối ưu cho Dương Vật - theo hình, nhưng đồng thời không gây đau.
 									</div>
 								</div>
 							</div>
@@ -564,53 +563,52 @@ if(isset($_POST['name'])) {
 					</div>
 				</div>
 				<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-12">
 						<div class="item_ins">
-							<div class="left_ins"><img src="./index_files/ins5.png"></div>
+
 							<div class="right_ins">
 								<div class="wr_inst_text">
 									<div class="inst_text select_no">
 										<span>6. Dừng ở phía trước của đầu:</span>
-										Vươn tay tới đầu của dương vật, bạn cần phải dừng lại - đây là một bài tập lặp lại, mà nên kéo dài khoảng ba giây.
+										Vươn tay tới đầu của Dương Vật, bạn cần phải dừng lại - đây là một bài tập lặp lại, mà nên kéo dài khoảng ba giây.
 									</div>
 									<div class="inst_text select_no">
 										<span>7. Lặp lại:</span>
-										Sau khi hoàn thành một chu kỳ, bạn lặp lại toàn bộ chuỗi các hành động trên kích thích thêm lưu lượng máu trong dương vật.
+										Sau khi hoàn thành một chu kỳ, bạn lặp lại toàn bộ chuỗi các hành động trên kích thích thêm lưu lượng máu trong Dương Vật.
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-md-6">
+					<div class="col-md-12">
 						<div class="block_inl_center">
 							<a href="#item0" class="btn btn_sm">Đặt hàng</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="row">
+				<div class="row" id="hidd1" style="display: none;">
 					<div class="col-xs-12">
-						<div class="w_font6"><h3>Tại sao Titanium Gel lại kết hợp tập thể dục?</h3></div>
+						<div class="w_font6"><h3>Tại sao Titanium Gel lại kết hợp tập thể dục Dương Vật?</h3></div>
 						<div class="block_text_content">
 							<p class="select_no">
-							Cơ chế hoạt động là gì? Kem Titan gel có chứa các thành phần hoàn toàn an toàn mà được hấp thu qua da vào sâu bên trong dương vật, để thâm nhập sâu hơn mức độ tế bào, kích thích tiềm năng, tăng độ nhạy cảm và quan trọng nhất, thúc đẩy căng cơ quan hang của dương vật phát triển.
+							<strong>+</strong>&nbsp;Cơ chế hoạt động là gì? Kem Titan gel có chứa các thành phần hoàn toàn an toàn mà được hấp thu qua da vào sâu bên trong Dương Vật, để thâm nhập sâu hơn mức độ tế bào, kích thích tiềm năng, tăng độ nhạy cảm và quan trọng nhất, thúc đẩy căng cơ quan hang của Dương Vật phát triển.
 							</p>
-							<div class="img_ins_center"><img src="./index_files/center_img.jpg"></div>
+
 							<p class="select_no">
-								Quá trình này - sự mở rộng của cơ hang, đẩy mạnh quá trình chao đổi chất tăng lưu lượng máu lưu thông trong dương vật, mà là chịu trách nhiệm cho các hoạt chất bằng Titan gel. Một mục tiêu tương tự như đã mô tả các bài tập.
+								<strong>-</strong>&nbsp;Quá trình này - sự mở rộng của cơ hang, đẩy mạnh quá trình chao đổi chất tăng lưu lượng máu lưu thông trong Dương Vật, mà là chịu trách nhiệm cho các hoạt chất bằng Titan gel. Một mục tiêu tương tự như đã mô tả các bài tập.
 							</p>
 						</div>
 						<div class="block_text_content  clearfix">
-							<div class="foto_left"><img src="./index_files/ins4.jpg" alt=""></div>
 							<p class="select_no">
-								Nhưng chú ý là một bài tập riêng biệt(Tập không dùng Titan gel) kém hiệu quả, bài tập cung cấp một kết quả thấp.
+								<strong>+</strong>&nbsp;Nhưng chú ý là một bài tập riêng biệt(Tập không dùng Titan gel) kém hiệu quả, bài tập cung cấp một kết quả thấp.
 							</p>
 							<p class="select_no">
-								Đặc biệt, để đạt được một hiệu ứng mà Titanium gel có thể cung cấp trong vài tuần bằng bạn để mất khoảng một năm. Vì vậy, lựa chọn khả thi nhất - để kết hợp hai kỹ thuật này là cách phát triển tốt nhất, nói theo nghĩa bóng, một cú đúp.
+								<strong>-</strong>&nbsp;Đặc biệt, để đạt được một hiệu ứng mà Titanium gel có thể cung cấp trong vài tuần bằng bạn để mất khoảng một năm. Vì vậy, lựa chọn khả thi nhất - để kết hợp hai kỹ thuật này là cách phát triển tốt nhất, nói theo nghĩa bóng, một cú đúp.
 							</p>
 							<p class="select_no">
-								Thứ nhất, sử dụng Titan Gel kem cùng với bài tập thể dục bạn làm tăng kích thước dương vật và tạo thêm sức bền cho các thành phần trong dương vật.  Thứ hai, việc mở rộng các hang của dương vật có thể kiểm soát xuất tinh sớm, cải thiện độ nhạy cảm, tăng độ cương cứng đem lại cảm giác mạnh về độ cực khoái.
+								<strong>-</strong>&nbsp;Thứ nhất, sử dụng Titan Gel kem cùng với bài tập thể dục bạn làm tăng kích thước Dương Vật và tạo thêm sức bền cho các thành phần trong Dương Vật.  Thứ hai, việc mở rộng các hang của Dương Vật có thể kiểm soát xuất tinh sớm, cải thiện độ nhạy cảm, tăng độ cương cứng đem lại cảm giác mạnh về độ cực khoái.
 							</p>
 						</div>
 					</div>
@@ -627,10 +625,10 @@ if(isset($_POST['name'])) {
 							</div>
 							<div class="text_doc">
 								<p class="select_no">
-									"Đối với một người đàn ông, kích thước và sức mạnh của dương vật - .. Một chỉ số của sức mạnh, phẩm giá của nó và là niềm tự hào và là một tiêu chí quan trọng cho sự hình thành của lòng tự trọng Ngay cả đối với phụ nữ là quan trọng kích thước của dương vật nam và chất lượng kiểm soát bóng, những gì chúng ta có thể nói về những người đàn ông không may, không phải lúc nào thiên nhiên mang lại cho nó, tôi muốn, vì vậy thống kê hiện nay cho thấy có nhiều người đàn ông được rút ra để các bác sĩ phẫu thuật về kích thước dương vật.
+									"Đối với một người đàn ông, kích thước và sức mạnh của Dương Vật là một chỉ số của sức mạnh, phẩm giá của nó và là niềm tự hào và là một tiêu chí quan trọng cho sự hình thành của lòng tự trọng. Ngay cả đối với phụ nữ điều quan trọng kích thước của Dương Vật của nam giới và chất lượng kiểm soát cuộc yêu, những gì chúng ta có thể nói về những người đàn ông không may, không phải lúc nào thiên nhiên cũng mang lại cho họ thể trạng tốt nhất, vì vậy thống kê hiện nay cho thấy có nhiều người đàn ông được rút ra để các bác sĩ phẫu thuật về kích thước Dương Vật.
 								</p>
 								<p class="select_no">
-									Trước đây, tôi sẽ không ngăn cản họ khỏi nó, bởi vì tôi không thấy bất kỳ thay thế. Nhưng các chuyên gia đã phát triển các Titan Gel - phương tiện cho thấy kết quả ấn tượng. Do đó người bệnh của mình ngày hôm nay, tôi khuyên bạn nên dùng thuốc này. "
+									Trước đây, tôi sẽ không ngăn cản họ khỏi nó, bởi vì tôi không thấy bất kỳ thay thế. Nhưng các chuyên gia đã phát triển các Titan Gel - phương tiện cho thấy kết quả ấn tượng. Do đó người bệnh của mình ngày hôm nay, tôi khuyên bạn nên dùng Gel Titan này. "
 								</p>
 							</div>
 						</div>
@@ -643,10 +641,10 @@ if(isset($_POST['name'])) {
 							</div>
 							<div class="text_doc">
 								<p class="select_no">
-									"Tôi đã thực hành phẫu thuật cho kích thước dương vật và nó là không có bí mật với tôi rằng nhiều người đàn ông trải qua một phức tạp thế kỷ 21 do kích thước nhỏ và muốn tăng dương vật của bạn thông qua việc sử dụng phẫu thuật.
+									"Tôi đã thực hành phẫu thuật cho kích thước Dương Vật của nhiều người đàn ông, do kích thước nhỏ và muốn tăng kích thước, nó là một quá trình phức tạp, nguy hiểm và chi phí cao.
 								</p>
 								<p class="select_no">
-									Ngày càng có nhiều khách hàng của tôi đã bắt đầu sử dụng gel titan, ghi nhận những hiệu quả đáng kể trong một thời gian tương đối ngắn. Ngoài ra cho chúng nó không mang theo bất kỳ căng thẳng tinh thần (như phẫu thuật), mặc dù phải mất lâu hơn một chút. Tôi phải thừa nhận rằng phẫu thuật đã xuất hiện một đối thủ xứng đáng. "
+									Ngày càng có nhiều khách hàng của tôi đã bắt đầu sử dụng gel titan, ghi nhận những hiệu quả đáng kể trong một thời gian tương đối ngắn. Ngoài ra cho sản phẩm không mang theo bất kỳ căng thẳng tinh thần (như phẫu thuật), mặc dù phải mất lâu hơn một chút. Tôi phải thừa nhận rằng phẫu thuật đã xuất hiện một đối thủ xứng đáng. "
 								</p>
 
 							</div>
@@ -660,16 +658,23 @@ if(isset($_POST['name'])) {
 							</div>
 							<div class="text_doc">
 								<p class="select_no">
-									"Tôi làm việc một bác sĩ tiết niệu trong hơn 30 năm. Và không bao giờ khuyên bệnh nhân của mình với các loại thuốc, thuốc mỡ và thuốc tăng dương vật. Ngay cả khi có một Gel Titan, tôi từ chối để chấp nhận nó. Hôm nay, 48% số bệnh nhân của tôi đã sử dụng gel này. Và khoảng một nửa . số đó - trên đề nghị của tôi, tôi đã làm sai, giống như nhiều đồng nghiệp của Titan của tôi - một tính năng bảo mật mà sẽ sớm thay thế hoạt động cũng có thể được lưu ý rằng các đồng nghiệp của tôi và tôi ghi lại các chỉ số hoạt động sau đây: "
+									"Tôi làm việc một bác sĩ tiết niệu trong hơn 30 năm. Và không bao giờ khuyên bệnh nhân của mình với các loại thuốc, thuốc mỡ và thuốc tăng đương Vật. Ngay cả khi có một Gel Titan, tôi từ chối để chấp nhận nó. Hôm nay, 48% số bệnh nhân của tôi đã sử dụng gel này. Và khoảng một nửa . số đó - trên đề nghị của tôi, tôi đã làm sai, giống như nhiều đồng nghiệp của Titan của tôi - một tính năng bảo mật mà sẽ sớm thay thế hoạt động cũng có thể được lưu ý rằng các đồng nghiệp của tôi và tôi ghi lại các chỉ số hoạt động sau đây: "
 								</p>
-								<div class="st_li select_no"><p><span>1.</span>Nó được ghi nhận một sự gia tăng trong thể hang của dương vật</p></div>
-								<div class="st_li select_no"><p><span>2.</span>Cố định dương vật đàn hồi của da tăng cường bằng 70-80%</p></div>
+								<div class="st_li select_no"><p><span>1.</span>Nó được ghi nhận một sự gia tăng trong thể hang của Dương Vật</p></div>
+								<div class="st_li select_no"><p><span>2.</span>Cố định Dương Vật, tăng tính đàn hồi của da một cách tốt nhât</p></div>
 								<div class="st_li select_no"><p><span>3.</span>Nâng cao chất lượng cương cứng và tăng độ nhạy cảm</p></div>
 							</div>
 						</div>
 					</div>
 				</div>
 
+				<div class="row">
+					<div class="col-xs-12">
+						<p style="font-size: 20px; font-weight: bold;">
+							<span style="color: red;">*</span> lưu ý: Công dụng của sản phẩm có thể thay đổi tùy theo cơ địa và thể trạng của từng người.
+						</p>
+					</div>
+				</div>
 			</div>
 		</div><!--section3-->
 	</div><!--section_middle-->
@@ -680,7 +685,6 @@ if(isset($_POST['name'])) {
 					<div class="block_inl_center">
 						<div class="text_bann_center">
 							Hơn 1,000,000 khách hàng hài lòng!
-							<span>Kết quả lý tưởng trong 4 tuần!</span>
 						</div>
 					</div>
 					<div class="block_inl_center">
@@ -698,36 +702,24 @@ if(isset($_POST['name'])) {
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6 graff">
-					<div class="block_imag_gr">
-						<div class="imag_gr">
-							<img src="./index_files/gr1.png">
-						</div>
-						<div class="imag_gr">
-							<img src="./index_files/gr2.png">
-						</div>
-						<div class="imag_gr">
-							<img src="./index_files/gr3.png">
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 graff">
+
+				<div class="col-md-12 graff">
 					<div class="item_gr">
 						<span class="gr_v">2 tuần</span>
 						<span class="gr_g select_no">
-							Sự cương cứng sẽ trở nên vững chắc hơn và bền, độ nhạy dương vật tăng gấp đôi. Đường kính và chiều dài được tăng thêm 2 cm trong 2 tuần đầu tiên.
+							Sự cương cứng sẽ trở nên vững chắc hơn và bền, độ nhạy Dương Vật tăng cao. Đường kính và chiều dài được tăng ở mức độ cơ bản.
 						</span>
 					</div>
 					<div class="item_gr">
 						<span class="gr_v">3 tuần</span>
 						<span class="gr_g select_no">
-							Dương vật được gia tăng đáng kể về kích thước, nhận được một hình dạng giải phẫu chính xác. Quan hệ tình dục kéo dài lâu hơn 70%.
+							Dương vật được gia tăng đáng kể về kích thước, nhận được một hình dạng giải phẫu chính xác. Quan hệ tình dục kéo dài lâu hơn.
 						</span>
 					</div>
 					<div class="item_gr">
 						<span class="gr_v">4 tuần</span>
 						<span class="gr_g select_no">
-							Chiều cao 3-5 cm! Sex trở nên tốt hơn. Thời hạn của một cực khoái đang phát triển và nó đến nhanh hơn, trong khi duy trì kiểm soát.
+							Chiều dài Dương vật phát triển tối đa! Quan hệ trở nên tốt hơn. Thời hạn của một cực khoái đang phát triển và nó đến nhanh hơn, trong khi duy trì kiểm soát.
 						</span>
 					</div>
 				</div>
@@ -740,7 +732,7 @@ if(isset($_POST['name'])) {
 			<div class="row">
 				<div class="col-md-6 col-lg-5 col_foot foot_menu">
 					<div class="slog_foot"><span class="sp_b">Một lần và cho tất cả!</span>
-						<span class="font_b">Kết quả rõ rệt trong 4 tuần</span>
+						<span class="font_b">Kết quả rõ rệt trong vài tuần</span>
 					</div>
 					<div class="block-menu_nav">
 						<div class="block-toggle_nav">
@@ -757,7 +749,7 @@ if(isset($_POST['name'])) {
 							<li class="opened"><a href="#item1">Thành phần, tác dụng</a></li>
 							<li><a href="#item2">Hướng dẫn sử dụng</a></li>
 							<li><a href="#item3">Ý kiến chuyên gia</a></li>
-							<li><a href="#item0">718 Đường Láng - HN</a></li>
+							<li><a href="#item0">718 Láng-Hà Nội</a></li>
 							<li><a href="https://www.facebook.com/titangelrussia.comm/"  target="_blank">Facebook</a></li>
 							<li><a href="https://www.youtube.com/watch?v=9Ci-noZzgqo" target="_blank">Bt1 - Stretching</a></li>
 							<li><a href="https://www.youtube.com/watch?v=8s8KZx11M7E" target="_blank">Bt2 - jelqing</a></li>
