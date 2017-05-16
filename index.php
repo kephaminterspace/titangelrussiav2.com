@@ -112,40 +112,18 @@ if(isset($_POST['name'])) {
 	<!-- DO NOT MODIFY -->
 	<!-- End Facebook Pixel Code -->
 
-	<!-- Google Code for H&agrave;nh &#273;&#7897;ng chuy&#7875;n &#273;&#7893;i Conversion Page -->
-	<script type="text/javascript">
-		/* <![CDATA[ */
-		var google_conversion_id = 869085517;
-		var google_conversion_language = "en";
-		var google_conversion_format = "3";
-		var google_conversion_color = "ffffff";
-		var google_conversion_label = "s2e3CIH55nAQzeK0ngM";
-		var google_conversion_value = 1.00;
-		var google_conversion_currency = "VND";
-		var google_remarketing_only = false;
-		/* ]]> */
-	</script>
-	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-	</script>
-	<noscript>
-		<div style="display:inline;">
-			<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/869085517/?value=1.00&amp;currency_code=VND&amp;label=s2e3CIH55nAQzeK0ngM&amp;guid=ON&amp;script=0"/>
-		</div>
-	</noscript>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+		ga('create', 'UA-98481969-1', 'auto');
+		ga('send', 'pageview');
+	</script>
 </head>
+
 <body>
-
-<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-	ga('create', 'UA-98481969-1', 'auto');
-	ga('send', 'pageview');
-</script>
-
 <div class="wrapper">
 	<div class="head_top">
 		<div class="container">
@@ -206,7 +184,7 @@ if(isset($_POST['name'])) {
 									<a href="#item1">Thành phần và tác dụng</a>
 								</li>
 								<li>
-									<a href="#item2">Hướng dẫn sử dụng</a>
+									<a href="#item2">Sử dụng kết hợp thể dục</a>
 								</li>
 								<li>
 									<a href="#item3">Ý kiến chuyên gia</a>
@@ -497,96 +475,35 @@ if(isset($_POST['name'])) {
 
 				<div class="row">
 					<div class="col-xs-12">
-						<h2 id="item2" style="border-bottom: 3px solid #eaeaea;">Hướng dẫn sử dụng</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<div class="item_ins">
+						<h2 id="item2" style="border-bottom: 3px solid #eaeaea;">Tại sao Titanium Gel lại kết hợp tập thể dục?</h2>
 
-							<div class="right_ins">
-								<div class="wr_inst_text">
-									<div class="inst_text select_no">
-										<span>1. Bôi trơn: </span>
-										Đầu tiên cho Titan gel vào lòng bàn tay sau đó bôi trơn Titan gel đều lên toàn bộ Dương Vật.
-									</div>
-								</div>
-							</div>
+						<div class="block_text_content">
+							<p class="select_no">
+								Cơ chế hoạt động là gì? Kem Titan gel có chứa các thành phần tự nhiên hoàn toàn an toàn mà được hấp thụ qua da vào sâu bên trong dương vật, để thâm nhập sâu hơn ở mức độ tế bào, kích thích tiềm năng, tăng độ nhạy cảm và quan trọng nhất, thúc đẩy các cơ quan hang của dương vật phát triển.
+							</p>
+							<div class="img_ins_center"><img src="./index_files/center_img.jpg"></div>
+							<p class="select_no">
+								Quá trình này - sự mở rộng của cơ hang, đẩy mạnh quá trình chao đổi chất tăng lưu lượng máu lưu thông trong dương vật, mà là chịu trách nhiệm cho các hoạt chất bằng Titan gel.
+							</p>
 						</div>
-					</div>
-
-					<div class="col-md-12">
-						<div class="item_ins">
-
-							<div class="right_ins">
-								<div class="wr_inst_text">
-									<div class="inst_text select_no">
-										<span>2. Mức độ cương cứng:</span>
-										Vuốt chậm và nhẹ từ đầu đến một nửa Dương Vật, cách tốt nhất để lưu thông máu.
-									</div>
-									<div class="inst_text select_no">
-										<span>3. Tạo hình - "OK": </span>
-										Trong khi Titan Gel kích thích sự lưu thông máu từ bên trong, tay bạn nắm chặt Dương Vật sao cho ngón cái và ngón trỏ tạo thành hình "OK"
-									</div>
-								</div>
+						<div class="block_text_content  clearfix">
+							<div class="foto_left"><img src="./index_files/ins4.jpg" alt=""></div>
+							<p class="select_no">
+								Nhưng chú ý là một bài tập riêng biệt(Tập thể dục cho Dương Vật không dùng Titan gel) kém hiệu quả, bài tập cung cấp một kết quả thấp.
+							</p>
+							<p class="select_no">
+								Đặc biệt, để đạt được một hiệu ứng mà Titanium gel có thể cung cấp trong vài tuần bằng bạn để mất khoảng một năm. Vì vậy, lựa chọn khả thi nhất - để kết hợp hai kỹ thuật này là cách phát triển tốt nhất, nói theo nghĩa bóng, một cú đúp.
+							</p>
+							<p class="select_no">
+								Thứ nhất, sử dụng Titan Gel kem cùng với bài tập thể dục bạn làm tăng kích thước dương vật và tạo thêm sức bền cho các thành phần trong dương vật.  Thứ hai, việc mở rộng các hang của dương vật có thể kiểm soát xuất tinh sớm, cải thiện độ nhạy cảm, tăng độ cương cứng đem lại cảm giác mạnh về độ cực khoái.
+							</p>
+							<div class="block_inl_center">
+								<a href="#item0" class="btn btn_sm">Đặt hàng</a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="row">
-				<div class="col-md-12">
-						<div class="item_ins">
 
-							<div class="right_ins">
-								<div class="wr_inst_text">
-									<div class="inst_text select_no">
-										<span>4. Bắt đầu:</span>
-										Bắt đầu từ đầu Dương Vật bạn đưa tay về phía xương mu qua thân Dương Vật tới cuối.
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-12">
-						<div class="item_ins">
-
-							<div class="right_ins">
-								<div class="wr_inst_text">
-									<div class="inst_text select_no">
-										<span>5. Di chuyển lên:</span>
-										Siết vòng ngón tay, di chuyển và chậm dọc trục lên phía đầu Dương Vật,  điều quan trọng là để cung cấp áp suất tối ưu cho Dương Vật - theo hình, nhưng đồng thời không gây đau.
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-				<div class="col-md-12">
-						<div class="item_ins">
-
-							<div class="right_ins">
-								<div class="wr_inst_text">
-									<div class="inst_text select_no">
-										<span>6. Dừng ở phía trước của đầu:</span>
-										Vươn tay tới đầu của Dương Vật, bạn cần phải dừng lại - đây là một bài tập lặp lại, mà nên kéo dài khoảng ba giây.
-									</div>
-									<div class="inst_text select_no">
-										<span>7. Lặp lại:</span>
-										Sau khi hoàn thành một chu kỳ, bạn lặp lại toàn bộ chuỗi các hành động trên kích thích thêm lưu lượng máu trong Dương Vật.
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-12">
-						<div class="block_inl_center">
-							<a href="#item0" class="btn btn_sm">Đặt hàng</a>
-						</div>
-					</div>
-				</div>
 				<div class="row">
 					<div class="col-xs-12 content">
 						<h2 id="item3"  style="border-bottom: 3px solid #eaeaea;">Ý kiến chuyên gia</h2>
@@ -643,7 +560,7 @@ if(isset($_POST['name'])) {
 
 				<div class="row">
 					<div class="col-xs-12">
-						<p style="font-size: 20px; font-weight: bold;">
+						<p style="text-align:center;">
 							<span style="color: red;">*</span> lưu ý: Công dụng của sản phẩm có thể thay đổi tùy theo cơ địa và thể trạng của từng người.
 						</p>
 					</div>
@@ -675,8 +592,12 @@ if(isset($_POST['name'])) {
 				</div>
 			</div>
 			<div class="row">
-
-				<div class="col-md-12 graff">
+				<div class="col-md-6 graff">
+					<div class="chart_image">
+						<img src="./images/chart.png" alt="">
+					</div>
+				</div>
+				<div class="col-md-6 graff">
 					<div class="item_gr">
 						<span class="gr_v">2 tuần</span>
 						<span class="gr_g select_no">
