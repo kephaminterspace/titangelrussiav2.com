@@ -228,7 +228,7 @@ if(isset($_POST['name'])) {
 				</div>
 
 				<div class="col-xs-12 col-md-6 banner-right">
-					<div class="form_wrap_bann">
+					<div class="form_wrap_bann" style="margin-bottom:10px;">
 					<div class="title_form" id="item0">Để đặt hàng chỉ cần điền vào mẫu</div>
 							<!--noindex-->
 
@@ -268,12 +268,21 @@ if(isset($_POST['name'])) {
 											5 Tuýp
 										</option>
 										<option value="6">
-											Mua sỉ
+											6 Tuýp
+										</option>
+										<option value="7">
+											7 Tuýp
+										</option>
+										<option value="8">
+											8 Tuýp
+										</option>
+										<option value="9">
+											9 Tuýp
 										</option>
 									</select>
 								</div>
-								<p>Hotline: <strong style="font-size: 23px;">01635 243 892</strong></p>
-								<p>Giá: <span style="font-size: 20px;color: red; text-decoration: line-through;">1.500.000</span> - <b>750.000 đ</b></p>
+								<p>Giá: <b>750.000 - <span style="font-size: 16px;color: red; text-decoration: line-through;">1.500.000</span>đ/ 1T</b></p>
+								<p><b>Một liệu trình 3 tuýp</b> <br>chỉ: <strong style="font-size: 23px;">1.500.000đ</strong></p>
 								<button class="btn btn_sm" type="submit">ĐẶT HÀNG</button>
 								<div class="clear"></div>
 							</div>
@@ -291,7 +300,7 @@ if(isset($_POST['name'])) {
 						<li><i class="icon icon4"></i>Cải thiện độ cương cứng</li>
 						<li><i class="icon icon5"></i>Tăng ham muốn tình dục</li>
 						<li><i class="icon icon6"></i>Tăng kích thước lên tối đa</li>
-						<li><i class="icon icon7"></i>Phê duyệt bởi поpнo-звездами</li>
+						<li><i class="icon icon7"></i>Phê duyệt bởi bộ y tế Nga</li>
 					</ul>
 					<div class="banner_title-l2">
 						<span class="number_bann">Mua 2/</span>
@@ -348,33 +357,7 @@ if(isset($_POST['name'])) {
 				</div>
 			</div>
 		</div><!--section1-->
-		<div class="section2">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12">
-						<div class="wrap_shad_block">
-							<div class="shad_block shad_block_mob">
-								<div class="att_block_imag">
-									<div class="att_block_icon"><img src="./index_files/icon_att.png"></div>
-								</div>
-								<div class="att_block_text">
-									<div class="att_title">Cảnh báo!</div>
-									<p class="select_no">
-										Trang web của chúng tôi chuyên cung cấp Titan Gel Nga chính hãng ở Việt Nam.
-									</p>
-									<p class="select_no">
-										Sự nhầm lẫn của một số khách hàng là mua nhầm phải Titan Gel giả, kém chất lượng, khi sử dụng không hiệu quả lại nghĩ Titan Gel lừa
-									</p>
-									<p class="str-font select_no">
-										Coi chừng hàng giả! Hãy đặt hàng trên trang web của chúng tôi để có được một sản phẩm chất lượng, chính hãng với giá cả phải chăng!
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div><!--section2-->
+
 		<div class="section3">
 			<div class="container">
 
@@ -475,7 +458,7 @@ if(isset($_POST['name'])) {
 
 				<div class="row">
 					<div class="col-xs-12">
-						<h2 id="item2" style="border-bottom: 3px solid #eaeaea;">Tại sao Titanium Gel lại kết hợp tập thể dục?</h2>
+						<h2 id="item2" style="border-bottom: 3px solid #eaeaea;">Titan Gel kết hợp tập thể dục Dương Vật?</h2>
 
 						<div class="block_text_content">
 							<p class="select_no">
@@ -594,7 +577,7 @@ if(isset($_POST['name'])) {
 			<div class="row">
 				<div class="col-md-6 graff">
 					<div class="chart_image">
-						<img src="./images/chart.png" alt="">
+						<img src="./images/chart.png" alt="" style="width: 100%;">
 					</div>
 				</div>
 				<div class="col-md-6 graff">
@@ -625,7 +608,7 @@ if(isset($_POST['name'])) {
 			<div class="prod_foot"><img src="./index_files/product_foot.png"></div>
 			<div class="row">
 				<div class="col-md-6 col-lg-5 col_foot foot_menu">
-					<div class="slog_foot"><span class="sp_b">Một lần và cho tất cả!</span>
+					<div class="slog_foot"><span class="sp_b">Một lần cho mãi mãi!</span>
 						<span class="font_b">Kết quả rõ rệt trong 4 tuần</span>
 					</div>
 					<div class="block-menu_nav">
@@ -640,14 +623,11 @@ if(isset($_POST['name'])) {
 							<div class="togle-name">Thực đơn</div>
 						</div><!--block-toggle_nav-->
 						<ul class="menu_bottom" id="menu2" style="display: block;">
-							<li class="opened"><a href="#item1">Thành phần, tác dụng</a></li>
-							<li><a href="#item2">Hướng dẫn sử dụng</a></li>
-							<li><a href="#item3">Ý kiến chuyên gia</a></li>
-							<li><a href="#item0">718 Láng-Hà Nội</a></li>
-							<li><a href="https://www.facebook.com/titangelrussia.comm/"  target="_blank">Facebook</a></li>
-							<li><a href="https://www.youtube.com/watch?v=9Ci-noZzgqo" target="_blank">Bt1 - Stretching</a></li>
-							<li><a href="https://www.youtube.com/watch?v=8s8KZx11M7E" target="_blank">Bt2 - jelqing</a></li>
-							<li><a href="https://www.youtube.com/watch?v=2ozo7nv4Axg" target="_blank">Bt3 - Kegel</a></li>
+							<li><a href="#item0">Địa chỉ: 718 - Đường Láng, Đống Đa, Hà Nội</a></li>
+							<li><a href="tel: 01635243892">Hotline: <strong style="font-size: 18px;">01635 243 892</strong></a></li>
+							<li><a href="https://www.youtube.com/watch?v=9Ci-noZzgqo" target="_blank">Bài tập 1: Stretching</a></li>
+							<li><a href="https://www.youtube.com/watch?v=8s8KZx11M7E" target="_blank">Bài tập 2: jelqing</a></li>
+							<li><a href="https://www.youtube.com/watch?v=2ozo7nv4Axg" target="_blank">Bài tập 3: Kegel</a></li>
 						</ul>
 					</div>
 				</div>
